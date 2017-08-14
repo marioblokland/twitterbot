@@ -6,7 +6,6 @@ import (
 
 	"github.com/ChimeraCoder/anaconda"
 	"github.com/sirupsen/logrus"
-	"fmt"
 )
 
 var (
