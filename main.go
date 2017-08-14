@@ -6,6 +6,7 @@ import (
 
 	"github.com/ChimeraCoder/anaconda"
 	"github.com/sirupsen/logrus"
+	"fmt"
 )
 
 var (
@@ -44,7 +45,7 @@ func main() {
 			continue
 		}
 
-		if tweet.RetweetedStatus != nil {
+		if tweet.RetweetedStatus != nil || tweet.User.ScreenName == "tamd87" || tweet.PossiblySensitive {
 			continue
 		}
 
