@@ -25,7 +25,7 @@ func getenv(name string) string {
 
 // Returns true if the provided tweet should not be retweeted
 func doNotRetweet(tweet anaconda.Tweet) bool {
-	return tweet.RetweetedStatus != nil || tweet.User.ScreenName == "tamd87" || tweet.PossiblySensitive
+	return tweet.RetweetedStatus != nil || tweet.User.ScreenName == "tamnd87" || tweet.PossiblySensitive
 }
 
 func main() {
